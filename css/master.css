@@ -1,6 +1,14 @@
 p{
   font-family: "Fredoka", sans-serif;
-  font-size: 1em
+  font-size: 1.5em;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+h2{
+  font-size: 2em;
 }
 
 hr{
@@ -46,7 +54,7 @@ td{
 }
 
 td:hover{
-  background-color: #E4E8EB;
+  background-color: #DADDE0;
 }
 
 .welcome{

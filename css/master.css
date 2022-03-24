@@ -9,6 +9,7 @@ h1{
 
 h2{
   font-size: 2em;
+  transition-duration: 0.3s;
 }
 
 hr{

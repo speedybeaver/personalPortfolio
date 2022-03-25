@@ -32,12 +32,12 @@
       <h2 style="color: #f05d5e;" class="body textCenter">About Me</h2>
       <div class="flex-container">
         <div class="flex-container divCenterH">
-          <table>
+          <table class="tableFixed">
             <tr style="height:15vh">
-              <td><p style="">I'm a 14 year-old first-generation Iraqi immigrant from Sterling Heights, Michigan. My friends describe me as prudent, kind, keen, hardworking, and athletic.
+              <td><div><p style="">I'm a 14 year-old first-generation Iraqi immigrant from Sterling Heights, Michigan. My friends describe me as prudent, kind, keen, hardworking, and athletic.
                 I enjoy spending my time biking, swimming, programming, doing math, and playing soccer. I attended the Middle School Math Science Technology Center (MS2TC) in Warren, Michigan from
-                grades 6-8, and am currently attending the Macomb Math Science Technology Center (MMSTC).</p><td>
-              <img src="resources/portrait.jpg" alt="Self-portrait" style="height:100%;width:100%;"></td>
+                grades 6-8, and am currently attending the Macomb Math Science Technology Center (MMSTC).</p></div></td>
+              <td><img src="resources/portrait.jpg" alt="Self-portrait" style="width:100%"></td>
             </tr>
           </table>
         </div>
@@ -81,20 +81,20 @@
             </table>
             <table class="tableBordered">
               <tr style="height:auto">
-                <td><p>My Reach School:</p></td>
+                <td><p class="bold">My Reach School:</p></td>
                 <td><p>My reach school is the Massachussetts Institute of Technology (MIT). It has been a personal challenge of mine to be admitted to study Computer Science
                 at this school since I was in middle school, and I will do all I can to make that dream a reality.</p></td>
                 <td><img class="tableImg" src="resources/mit.jpg" alt="MIT Dome"></td>
               </tr>
               <tr style="height:auto">
-                <td><p>My Match School:</p></td>
+                <td><p class="bold">My Match School:</p></td>
                 <td><p>The University of Michigan, or U of M, is my match school. This school is a renowned by Michiganders and people from all around the country. Although it's
                   not as ambitious as MIT, it would still be a great achievement to attend this school.
                 </p></td>
                 <td><img class="tableImg" src="resources/uofm.jpg" alt="U of M" style="width:100%"></td>
               </tr>
               <tr style="height:auto">
-                <td><p>Safety School:</p></td>
+                <td><p class="bold">Safety School:</p></td>
                 <td><p>My safety school is Oakland University. It is a local university that many of my peers and family members attend/have attended. It is not as presegious as the
                 other two, thus driving my interest more toward U of M and MIT.</p></td>
                 <td><img class="tableImg" src="resources/oakland.jpg" alt="Oakland University"></td>
@@ -106,10 +106,73 @@
         <!-- Favorites-->
           <h2 style="color: #f05d5e;" class="body textCenter">My Favorite Things</h2>
           <div class="flex-container">
-            <div class="flex-container divCenterH">
-            </div>
-          </div>
+            <div class="flex-container tableContainer">
+              <table class="tableFixed">
+                <tr>
+                  <td><h2>Albums:</h2></td>
+                  <td>
+                    <div class="slideshow-container">
+
+                      <div class="mySlides1 fade">
+                        <div class="numbertext">1 / 4</div>
+                        <img class="slideshowImage" src="resources\frenchexit.jpg" alt="French Exit Album Cover" style="width:100%;">
+                        <div class="text"><p><i>French Exit</i> by Tv Girl</p></div>
+                      </div>
+
+                      <div class="mySlides1 fade">
+                        <div class="numbertext">2 / 4</div>
+                        <img class="slideshowImage" src="resources\handlechange.jpg" alt="I Can't Handle Change Album Cover" style="width:100%;">
+                        <div class="text"><p><i>I Can't Handle Change</i> by Roar</p></div>
+                      </div>
+
+                      <div class="mySlides1 fade">
+                        <div class="numbertext">3 / 4</div>
+                        <img class="slideshowImage" src="resources\impossibleanimals.jpg" alt="Impossible Animals Album Cover" style="width:100%;">
+                        <div class="text"><p><i>Impossible Animals</i> by Roar</p></div>
+                      </div>
+
+                      <div class="mySlides1 fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img class="slideshowImage" src="resources\gawk.jpg" alt="Gawk Album Cover" style="width:100%;">
+                        <div class="text"><p><i>Gawk</i> by Vundabar</p></div>
+                      </div>
+
+                      <!-- Next and previous buttons -->
+                      <div style="text-align:left;"><a class="prev" onclick="plusSlides(-1,0)">&#10094;</a></div>
+                      <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+                  </div>
+
+                </td>
+                <td><h2>Books:</h2></td>
+                <td>
+                  <div class="slideshow-container">
+
+                    <div class="mySlides2 fade">
+                      <div class="numbertext">1 / 2</div>
+                      <img class="slideshowImage" src="resources\stormlight.jpg" alt="The Stormlight Archive" style="width:100%;">
+                      <div class="text"><p><i>The Stormlight Archive</i> by Brandon Sanderson</p></div>
+                    </div>
+
+                    <div class="mySlides2 fade">
+                      <div class="numbertext">2 / 2</div>
+                      <img class="slideshowImage" src="resources\mistbornjpg.jpg" alt="The Mistborn Trilogy" style="width:100%;">
+                      <div class="text"><p><i>Mistborn</i> by Brandon Sanderson</p></div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <div style="text-align:left;"><a class="prev" onclick="plusSlides(-1,1)">&#10094;</a></div>
+                    <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+                </div>
+
+              </td>
+            </tr>
+          </table>
+
+
+        </div>
+      </div>
 
     </div>
+    <script src="javaScript/project.js"></script>
   </body>
 </html>

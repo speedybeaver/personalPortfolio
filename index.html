@@ -14,12 +14,27 @@
     <div class="container" style='height:100%;'>
 
     <!-- Welcome-->
-      <div id="particles-js" class="container welcome">
+      <div class="container">
         <div class="divCenterV divCenterH">
           <h1 class="header textCenter animate__animated animate__rubberBand">Hi, 👋 I'm Gio</h1>
           <p class="body textCenter ">Allow me to tell you a bit about myself.</p>
         </div>
       </div>
+
+
+      <!-- Navigation Bar -->
+
+      <div id="navDiv">
+        <ul id="navBar">
+          <li style="background-color:#272932;"><a>Home</a></li>
+          <li><a href="html\academicCredentials.html">Academic Credentials</a></li>
+          <li><a href="html\workSamples.html">Work Samples</a></li>
+          <li><a href="html\experiences.html">Experiences</a></li>
+        </ul>
+      </div>
+
+      <br>
+      <br>
 
       <!-- Quote -->
       <hr>
@@ -75,7 +90,7 @@
             <table>
               <tr style="height:15vh">
                 <td><img src="resources/Knowledge-bro.png" alt="Knowledge" style="height:40vh;"></td>
-                  <td><p style="">In Interdiciplinary Studies (IDS), a class I'm currently taking, we had to explore some college and career ideas. My main career choice Weakness
+                  <td><p style="">In Interdiciplinary Studies (IDS), a class I'm currently taking, we had to <a target="_blank" href="https://docs.google.com/document/d/1bp9Ht7goVM_6ThNkb2ZrTS1PKAUzOuOaFCm8XKEGopc/edit?usp=sharing">explore some college</a>, which we made a <a target="_blank" href="https://wcskids-my.sharepoint.com/:p:/g/personal/839177_wcskids_net/EZC7iOKP-d5PiLZJ2512QRYBzSaDSi4xz6xdtUH2xFD_vQ?e=uWT7fe">presentation</a> on, and career ideas. My main career choice was
                     Software engineer, and that is what it remains today.</p>
               </tr>
             </table>
@@ -163,16 +178,82 @@
                     <div style="text-align:left;"><a class="prev" onclick="plusSlides(-1,1)">&#10094;</a></div>
                     <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
                 </div>
-
               </td>
             </tr>
+
+            <!-- Second Row -->
+            <tr>
+              <td><h2>Activities:</h2></td>
+              <td class="slideshow-container">
+                  <div class="mySlides3 fade">
+                    <div class="numbertext">1 / 5</div>
+                    <iframe src="https://www.youtube.com/embed/4fNYqHs2keo?autoplay=1&mute=1&controls=0&modestbranding=1&loop=1&playlist=4fNYqHs2keo"></iframe>
+                    <div class="text"><p>Biking</p></div>
+                  </div>
+
+                  <div class="mySlides3 fade">
+                    <div class="numbertext">2 / 5</div>
+                    <iframe src="https://www.youtube.com/embed/5oBeySmUTN0?autoplay=1&mute=1&controls=0&modestbranding=1&loop=1&playlist=5oBeySmUTN0"></iframe>
+                    <div class="text"><p>Playing Soccer</p></div>
+                  </div>
+
+                  <div class="mySlides3 fade">
+                  <div class="numbertext">3 / 5</div>
+                    <img class="slideshowImage" src="resources\swimAward.jpg" alt="" style="width:100%;">
+                    <div class="text"><p>Swimming</p></div>
+                  </div>
+
+                  <div class="mySlides3 fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img class="slideshowImage" src="resources\programming.png" alt="r" style="width:100%;">
+                    <div class="text"><p>Programming</p></div>
+                  </div>
+
+                  <div class="mySlides3 fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img class="slideshowImage" src="resources\unity.png" alt="Unity Logo" style="width:100%;">
+                    <div class="text"><p>Playing/Making Video Games</p></div>
+                  </div>
+
+                  <!-- Next and previous buttons -->
+                  <div style="text-align:left;"><a class="prev" onclick="plusSlides(-1,2)">&#10094;</a></div>
+                  <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
+
+            </td>
+            <td><h2>Shows:</h2></td>
+            <td>
+              <div class="slideshow-container">
+
+                <div class="mySlides4 fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img class="slideshowImage" src="resources\aot.png" alt="" style="width:100%;">
+                  <div class="text"><p><i>Attack On Titan</i></p></div>
+                </div>
+
+                <div class="mySlides4 fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img class="slideshowImage" src="resources\naruto.jpg" alt="" style="width:100%;">
+                  <div class="text"><p><i>Naruto</i></p></div>
+                </div>
+
+                <div class="mySlides4 fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img class="slideshowImage" src="resources\deathnote.jpg" alt="" style="width:100%;">
+                  <div class="text"><p><i>Death Note</i></p></div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <div style="text-align:left;"><a class="prev" onclick="plusSlides(-1,3)">&#10094;</a></div>
+                <a class="next" onclick="plusSlides(1,3)">&#10095;</a>
+            </div>
+          </td>
+        </tr>
           </table>
-
-
         </div>
       </div>
-
     </div>
     <script src="javaScript/project.js"></script>
+    <script src="javaScript/particles.js-master/particles.js"></script>
+    <script src="javaScript/particles.js-master/demo/js/app.js"></script>
   </body>
 </html>

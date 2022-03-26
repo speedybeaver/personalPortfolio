@@ -1,3 +1,17 @@
+a{
+  text-decoration: none;
+  color: #0f7173;
+  transition-duration: 0.2s;
+}
+
+a:visited{
+  color: #0f7173;
+}
+
+a:hover{
+  color: #19BCBF;
+}
+
 p{
   font-family: "Fredoka", sans-serif;
   font-size: 1.5em;
@@ -28,6 +42,8 @@ hr:hover{
 
 body{
   background-color:#e7ecef;
+  padding:0px;
+  margin:0
 }
 
 img{
@@ -44,6 +60,8 @@ table{
   table-layout: auto;
   width:100%;
   padding: 1.5em;
+  height:100%;
+  margin: 0px;
 }
 
 td{
@@ -52,17 +70,26 @@ td{
   border-collapse: collapse;
   text-align: center;
   transition-duration: 0.3s;
+  height:100%;
+  margin: 0px;
+}
+
+tr{
+  height:100%;
+  margin: 0px;
 }
 
 td:hover{
   background-color: #DADDE0;
 }
-.bold{
-  font-weight: bolder;
+
+iframe{
+  width:100%;
+  height:100%;
 }
 
-.welcome{
-  background-image: linear-gradient(to top left, #e7ecef, #E4E8EB);
+.bold{
+  font-weight: bolder;
 }
 
 .tableFixed{
@@ -79,6 +106,8 @@ td:hover{
   min-height: 40vh;
   min-width:40vw;
   justify-content: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 .container{
@@ -121,13 +150,17 @@ td:hover{
 }
 
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-.mySlides1, .mySlides2 {
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {
   display: none;
+}
+
+mySlides1, mySlides2, mySlides3, mySlides4 {
+  width:100%;
+  height:100%;
 }
 
 .prev, .next {
@@ -157,8 +190,7 @@ td:hover{
 
 .text {
   color: #f2f2f2;
-  font-size: 0.em;
-  padding: 8px 12px;
+  font-size: 0.8em;
   position: absolute;
   bottom: .1em;
   width: 100%;
@@ -178,6 +210,7 @@ td:hover{
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+  height:100%;
 }
 
 @keyframes fade {
@@ -194,5 +227,43 @@ td:hover{
 .slideShowImage{
   height:500px;
   width: 500px;
-  object-fit: cover;
+}
+
+#navBar{
+  list-style-type: none;
+  margin:2px;
+  padding:3px;
+  text-align: center;
+  position:sticky;
+}
+
+#navBar li{
+  float:left;
+  text-align: center;
+  padding-top: 10px;
+  width: 25%;
+  background-color: #0F7173;
+  height:2em;
+}
+
+#navBar li:hover{
+  background-color: #F05D5E;
+}
+
+#navBar a{
+  color: #D3E5E6;
+}
+
+#navBar a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+#navDiv{
+  height:2.5em;
+}
+
+#navDiv hr{
+  width:100vw;
+  color: black;
 }

@@ -43,12 +43,13 @@ hr:hover{
 body{
   background-color:#e7ecef;
   padding:0px;
-  margin:0
+  margin:0px;
 }
 
 img{
   border: 0.1em solid #0f7173;
   transition-duration: 0.3s;
+  max-width:100%;
 }
 
 img:hover{
@@ -97,7 +98,8 @@ iframe{
 }
 
 .tableImg{
-  max-width: 20vw
+  max-width: 20vw;
+  width:100%;
 }
 
 .flex-container {
@@ -231,8 +233,8 @@ mySlides1, mySlides2, mySlides3, mySlides4 {
 
 #navBar{
   list-style-type: none;
-  margin:2px;
-  padding:3px;
+  margin:0px;
+  padding:0px;
   text-align: center;
   position:sticky;
 }
@@ -240,10 +242,11 @@ mySlides1, mySlides2, mySlides3, mySlides4 {
 #navBar li{
   float:left;
   text-align: center;
-  padding-top: 10px;
+  padding-top:0.75em;
   width: 25%;
   background-color: #0F7173;
   height:2em;
+  white-space: nowrap;
 }
 
 #navBar li:hover{
@@ -260,7 +263,12 @@ mySlides1, mySlides2, mySlides3, mySlides4 {
 }
 
 #navDiv{
-  height:2.5em;
+  height:inherit;
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+  width:100%;
+  z-index: 100;
 }
 
 #navDiv hr{

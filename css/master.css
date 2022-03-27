@@ -2,6 +2,8 @@ a{
   text-decoration: none;
   color: #0f7173;
   transition-duration: 0.2s;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1em;
 }
 
 a:visited{
